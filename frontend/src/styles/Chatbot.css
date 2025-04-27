@@ -1,0 +1,8 @@
+.chatbot-close-button{
+    position: absolute;
+    top: 6rem;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

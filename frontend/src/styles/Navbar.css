@@ -1,0 +1,71 @@
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6rem;
+    padding: 1rem;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+}
+
+.branding-link{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.branding-text{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.main-nav-links{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.main-nav-feature{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.chatbot-link , .logout-link , .login-link{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 14px 12px;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+.logout-text{
+    width: 40px;
+}
+.chatbot-link:hover , .logout-link:hover , .login-link:hover{
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+
+/* ..................... */
+
+
+.bg-gradient-1 {
+    background: linear-gradient(to bottom right, rgba(255, 58, 94, 0.2), rgba(255, 199, 0, 0.1));
+}
+
+.bg-gradient-2 {
+    background: linear-gradient(to bottom right, rgba(85, 169, 247, 0.2), rgba(37, 211, 102, 0.1));
+}
+
+.bg-gradient-3 {
+    background: linear-gradient(to bottom right, rgba(76, 217, 100, 0.2), rgba(85, 169, 247, 0.1));
+}
